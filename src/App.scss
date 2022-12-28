@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "BebasNeue";
+  src: local("BebasNeue"),
+    url("./assets/BebasNeue-Regular.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "BebasNeue", cursive;
+}

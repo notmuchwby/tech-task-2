@@ -1,0 +1,63 @@
+@import "../../styles/variables.scss";
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $background-color;
+  padding: 0 2em;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+
+  img {
+    object-fit: cover;
+    max-width: 20em;
+    position: absolute;
+    top: 30%;
+    bottom: 0;
+    left: 85%;
+    right: 0;
+  }
+
+  .content {
+    h1 {
+      color: $white;
+      padding: 1em 0;
+    }
+    p {
+      color: $white;
+    }
+    .info {
+      color: $orange;
+      margin: 0.5em 0 1em 0;
+    }
+  }
+
+  //     img {
+  //       object-fit: cover;
+  //       max-width: 20em;
+  //       position: absolute;
+  //       top: 0;
+  //       bottom: 0;
+  //       left: 70%;
+  //       right: 0;
+  //     }
+
+  //     h1 {
+  //       font-size: 3.5em;
+  //       position: absolute;
+  //       top: 0;
+  //       bottom: 0;
+  //       left: 0;
+  //       right: 0;
+  //       height: fit-content;
+  //       margin: auto;
+  //     }
+
+  //     p {
+  //       padding-top: 20em;
+  //       text-align: justify;
+  //       width: 30em;
+  //     }
+  //   }
+}

@@ -1,0 +1,35 @@
+@import "../../styles/variables.scss";
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex: 1 1 auto;
+
+  p {
+    color: $white;
+    font-size: 2em;
+  }
+}
+
+.stats {
+  display: flex;
+  text-align: center;
+  gap: 0.5em;
+  flex-direction: column;
+
+  div:nth-child(2) {
+    border-top: 0.5px solid $white;
+    border-bottom: 0.5px solid $white;
+    padding: 1em 0;
+  }
+
+  .numberInfo {
+    color: $orange;
+    font-size: 2em;
+  }
+  .someInfo {
+    color: $white;
+    font-size: 1em;
+  }
+}

@@ -1,0 +1,35 @@
+@import "../../styles/variables.scss";
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #171719;
+
+  a {
+    text-decoration: none;
+  }
+
+  .logo {
+    background-color: $background-logo;
+    padding: 0.5em 1.5em;
+    margin: 1em 2em;
+    border: 0.1em dashed $white;
+    color: $white;
+  }
+
+  .address {
+    color: $orange;
+    padding: 1em;
+    margin: 1em 2em;
+  }
+
+  button {
+    background-color: $orange;
+    padding: 1em;
+    margin: 1em 2em;
+    border-radius: 3em;
+    color: $white;
+    cursor: pointer;
+    border: none;
+  }
+}

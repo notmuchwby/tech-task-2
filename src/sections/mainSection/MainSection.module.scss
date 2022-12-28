@@ -1,0 +1,42 @@
+@import "../../styles/variables.scss";
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $background-color;
+  padding: 0 2em;
+
+  .main_text {
+    flex: 2 1 auto;
+    color: $white;
+    width: 1em;
+    position: relative;
+
+    img {
+      object-fit: cover;
+      max-width: 20em;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 70%;
+      right: 0;
+    }
+
+    h1 {
+      font-size: 6em;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: fit-content;
+      margin: auto;
+    }
+
+    p {
+      padding-top: 20em;
+      text-align: justify;
+      width: 30em;
+    }
+  }
+}

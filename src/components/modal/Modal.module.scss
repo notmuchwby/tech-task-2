@@ -1,0 +1,39 @@
+@import "../../styles/variables.scss";
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  .content {
+    color: $white;
+    background-color: $darkerGrey;
+    padding: 1em;
+    text-align: center;
+
+    h1 {
+      color: $orange;
+      padding: 1em 0;
+    }
+    a {
+      color: $orange;
+      text-decoration: none;
+    }
+
+    button {
+      background-color: $orange;
+      padding: 1em;
+      margin: 2em;
+      border-radius: 3em;
+      border: none;
+      color: $white;
+      cursor: pointer;
+    }
+  }
+}
